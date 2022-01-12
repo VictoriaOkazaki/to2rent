@@ -614,6 +614,9 @@ a {
 }
 
 @media (max-width: 600px) {
+  .menu {
+    border: none;
+  }
   .menu__list {
     display: block;
     border-bottom: 1px solid #c4c4c4;
@@ -626,6 +629,9 @@ a {
   .menu__list-item:last-child {
     border-left: none;
     border-right: none;
+  }
+  .menu__list-item:first-child {
+    border-top: none;
   }
   .menu__list-link {
     padding: 20px 10px;
